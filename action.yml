@@ -209,3 +209,7 @@ runs:
           fi
 
           terminus build:env:delete:pr $PANTHEON_SITE --yes
+        # todo, also add deletion of GitHub environments representation
+        # https://github.com/bobheadxi/deployments?tab=readme-ov-file#step-delete-env
+
+          
